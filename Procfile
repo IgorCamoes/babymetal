@@ -1,0 +1,1 @@
+web: gunicorn demondayseila111.wsgi
