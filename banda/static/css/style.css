@@ -28,11 +28,19 @@ nav{
     height: 50px;
     border-bottom: 2px solid red;
     margin-bottom: 5%;
+    z-index: 1;
+    background-color: black;
+    position: sticky;
+    top: 0;
 }
 
 nav a{
     text-decoration: none;
     color: white;
+}
+
+nav a:hover{
+    background-color: red;
 }
 
 section{
@@ -100,4 +108,8 @@ footer p{
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+audio{
+    display: none;
 }

@@ -1,15 +1,10 @@
-let navbar = document.querySelector('nav');
-let colinha = nav.offsetTop;
+let link = document.querySelectorAll('.mscTitle');
+let section = document.querySelector('section');
+let imagem = document.querySelector('img');
 
-function grudou(){
-    if (window.pageYOffset >= colinha){
-        navbar.classList.add('fixo');
-    }
-    else{
-        navbar.classList.remove('fixo');
-    }
+function mudarConteudo(){
+    texto[0].innerHTML = 'seilamano aporracaraio';
+    link[0].style.color = 'red';
 }
 
-window.onscroll = grudou();
-
-alert('AAAAAAA');
+link[0].onclick = mudarConteudo();
